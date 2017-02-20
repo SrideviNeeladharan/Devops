@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html
+{
+  background-color:#E8E8E8;
+}
+body
+{
+    max-width:95%;
+    margin:0 auto;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    font-weight:400;
+    line-height: 1.5;
+    background-color: white;
+   
+}
+#heading{
+    background-color:hsla(0,0%,0%,0.8);
+    height:200px; 
+  
+}
+
+
+header
+{
+    display: flex;
+    justify-content:center;
+    max-width: 100%;
+    margin:0em auto;
+    padding: 1em;
+    color:white;
+}
+h1
+{
+    font-size: 3em;
+    max-width: 100%;
+    display: block;
+    font-weight: bolder;
+    letter-spacing: .7px;
+    
+}
+/*navigation*/
+
+nav 
+{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding:1em;
+     position: relative;
+}
+nav ul li
+{
+    float:left;
+    list-style: none;
+    text-align: center;
+    padding:1em;
+    
+}
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    padding:1em;
+    border-radius:5px;
+    color:#DFE2DB;
+    letter-spacing: .7px;
+    font-weight:400;
+}
+a:hover
+{
+    /*background-color: #FFF056;*/
+    background: linear-gradient(to bottom, #91dd70 0%, #55ae2e 100%);
+    color:black;
+    font-weight: 600;
+}
+/*---------------end nav---------*/
+
+.jumbo
+{
+    max-width:100%;
+  
+    
+   
+}
+.jumbo img
+{
+    width:100%;
+    max-height: 500px;
+}
+.mainSection
+{
+   max-width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: -100px;
+    z-index: 99;
+    position: relative;
+    padding:2em; 
+    font-size:medium;
+    font-weight: 400;
+}
+#oppurtunities
+{
+  
+    min-height:350px;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+   
+    
+    
+}
+.col3
+{
+    width:31%;
+    border: 2px solid lightgray;
+    padding: .5em;
+}
+
+.pic
+{
+    width:100%;
+    height:30%;
+}
+
+.partial
+{
+    width:90%;
+    min-height:750px;
+    margin:0 auto;
+}
+h2,h3,h4
+{
+    text-align: center;
+    max-width: 100%;
+    padding:1em;
+    
+}
+ p
+{
+    color:darkslategrey;
+    font-weight: 400;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    padding:1em;
+    line-height: 25px;
+    font-size:14px;
+    letter-spacing: .5px;
+    text-align: center;
+    
+}
+.partial h1
+{
+    height:100px;
+    color:black;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.partial img
+{
+    width:75%;
+    height:450px;
+    display: block;
+    margin:2em auto;  
+}
+.partial .employees
+{
+    width:45%;
+   height:300px;
+    margin:.5em;
+    float: right;
+}
+aside
+{
+    max-width:30%;
+    display: inline-block;
+    float:right;
+    margin:1em;
+
+}
+i
+{
+    color:#FFF056;
+}
+section
+{
+    padding: 2em;
+    margin:2em 2em;
+    line-height: 25px;
+    
+}
+/*button*/
+button
+{
+    background-color: #FFF056;
+    padding:1em;
+    margin: 0em auto;
+    color:hsla(0,0%,0%,0.8);
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: .7px;
+    display: block;
+    width: 25%;
+    border-radius: 5px;
+}
+.learnMore
+{
+    width: 80%;
+    background-color: #6cc644;
+    padding:.75em;
+    margin-top:2em;
+    color: ghostwhite;
+}
+.learnMore:hover
+{
+    background-color: #55ae2e;
+    
+}
+
+/* footer css*/
+footer
+{
+    background-color: #f8f8f8;
+    min-height:250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.footerPart1
+{
+    display: inline-block;
+    max-width:30%;
+    padding:1em;
+    vertical-align: top; 
+    color:slategray;
+}
+.footerPart2
+{
+    display: inline-block;
+    max-width:30%;
+    vertical-align: top;
+    text-align: center;
+    margin-left: 3em;
+    color:slategray;
+    
+}
+.footerPart2 i
+{
+    color:slategray;
+    padding:.5em;
+}
+.footerPart3
+{
+    display: inline-block;
+    max-width:30%;
+    padding:1em;
+    vertical-align: top;
+    color:slategray;
+    float:right;
+    
+}
+
+footer p{
+    font-size: small;
+    max-width: 100%;
+    text-align: left;
+    color:slategray;
+}
+h6
+{
+    margin-bottom: 2em;
+}
+h5
+{   margin-top:2em;
+    vertical-align: bottom;
+    color:darkgray;
+}
+
+footer a
+{
+    font-size:small;
+    color:darkgray;
+    margin-bottom: 1em;
+}
+/*filter: blur(1px);

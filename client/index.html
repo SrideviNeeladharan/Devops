@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html  ng-app='myApp'>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Jay's DevOps</title>
+
+<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--angular-->
+    <script src="/node_modules/angular/angular.js" charset="utf-8"></script>
+    <script src="/node_modules/angular-route/angular-route.js" charset="utf-8"></script>  
+    <script src="main.js" charset="utf-8"></script>
+    <!--FontAwesome--> 
+    <link rel="stylesheet" href='/node_modules/font-awesome/css/font-awesome.min.css'>
+    <!--stylesheet-->
+    
+	<link href='/assets/main.css' rel='stylesheet' type='text/css'>
+</head>
+    
+<body>
+  
+     <div id="heading"> 
+            <header>
+            <h1> Jay's Devops</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#!/home">Home</a></li>
+                    <li><a href="#!/about">About us</a></li>
+                    <li><a href ="#!/join">Careers</a></li>
+                    <li><a href="#!/benefits">Benefits</a></li>
+                    <li><a href ="#!/contact">Contact us</a></li>
+                </ul>
+            </nav>
+    </div>
+
+    
+     
+   
+    
+    <article id='topArt'>
+        
+         <div class='jumbo'>
+         <img src="/assets/Images/future.jpg" alt="technology">
+        </div>
+        
+        <section class="mainSection">
+            <h2>Welcome To Jay DevOps!</h2>
+
+                <p>We are a fledgling IT solution integrator providing Development and Operations workflows. Our DevOps workflows include both .NET windows and Open Source environments. We support both private, public, hybrid and other heterogeneous virtual and physical environments</p>
+         
+            <h3>What would you like to do</h3>
+            <div id="oppurtunities">
+                <div class='col3'>
+                    <img class="pic" src="/assets/Images/development.png" alt="dev image">
+                    <h4>DEVELOPMENT</h4>
+                    <p> We offer client-specific and customized process-driven software solution, with exceptional quality, on-time delivery, and cost-competitiveness. Our Solution delivery approach is to balance product development efforts and project duration to meet your business needs.</p>
+                     <button class="learnMore">Learn More</button>
+                </div>
+                <div class='col3'>
+                    <img class="pic" src="/assets/Images/softwaretesting.png" alt="dev image">
+                    <h4>TESTING</h4>
+                    <p>We offer client-specific and customized process-driven software solution, with exceptional quality, on-time delivery, and cost-competitiveness. Our Solution delivery approach is to balance product development efforts and project duration to meet your business needs.</p>
+                       <button class="learnMore">Learn More</button>
+                </div>
+                <div class='col3'>
+                    <img class="pic" src="/assets/Images/desktop.jpg" alt="dev image">
+                    <h4>OTHER JOBS</h4>
+                    <p>We offer client-specific and customized process-driven software solution, with exceptional quality, on-time delivery, and cost-competitiveness. Our Solution delivery approach is to balance product development efforts and project duration to meet your business needs.</p>
+                       <button class="learnMore">Learn More</button>
+                </div>
+            </div>
+       </section>
+    </article>
+    
+    <!--partial view-->
+    <article>
+        <div class="partial" ng-view>
+           
+        </div>
+    </article>
+    
+ <!--footer-->   
+    <footer>
+        <div class="footerPart1">
+        <h6><a href="#!/about">About us</a></h6>
+        <h6><a href ="#!/contact">Contact us</a></h6>
+        <h6><a href="">Terms & conditions</a></h6>
+        </div>
+        
+        <div class="footerPart2">
+            <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+            
+        </div>
+        <div class="footerPart3">
+            <h4>We are an Equal oppurnity employer</h4>
+        <p>At Jay's Devops, we don’t just accept difference—we celebrate it, we support it, and we thrive on it for the benefit of our employees, our products, and our community. Jay's devops is proud to be an equal opportunity workplace and is an affirmative action employer.</p>
+        </div>
+    </footer>
+     <div><h5>&copy; Jay's DEVOPS, All rights reserved</h5></div>
+     <div id="strip"></div>
+    
+</body>
+</html>
