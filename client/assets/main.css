@@ -15,15 +15,11 @@ body
     font-weight:400;
     line-height: 1.5;
     background-color: white;
-   
 }
 #heading{
-    background-color:hsla(0,0%,0%,0.8);
-    height:200px; 
-  
+    background-color:black;
+    height:170px; 
 }
-
-
 header
 {
     display: flex;
@@ -39,8 +35,7 @@ h1
     max-width: 100%;
     display: block;
     font-weight: bolder;
-    letter-spacing: .7px;
-    
+    letter-spacing: .7px; 
 }
 /*navigation*/
 
@@ -74,30 +69,29 @@ a
 a:hover
 {
     /*background-color: #FFF056;*/
-    background: linear-gradient(to bottom, #91dd70 0%, #55ae2e 100%);
+    background: linear-gradient(to bottom, #91dd70 0%, #6cc644 100%);
     color:black;
     font-weight: 600;
 }
 /*---------------end nav---------*/
-
+article{
+    max-width: 100%;
+}
 .jumbo
 {
     max-width:100%;
-  
-    
-   
 }
 .jumbo img
 {
     width:100%;
-    max-height: 500px;
+    max-height: 800px;
 }
 .mainSection
 {
    max-width: 85%;
     margin: 0 auto;
     background-color: white;
-    margin-top: -100px;
+    margin-top: -50px;
     z-index: 99;
     position: relative;
     padding:2em; 
@@ -110,10 +104,7 @@ a:hover
     min-height:350px;
     text-align: center;
     display:flex;
-    justify-content: space-between;
-   
-    
-    
+    justify-content: space-between;    
 }
 .col3
 {
@@ -178,7 +169,7 @@ aside
 {
     max-width:30%;
     display: inline-block;
-    float:right;
+    float:right;  
     margin:1em;
 
 }
@@ -189,17 +180,48 @@ i
 section
 {
     padding: 2em;
-    margin:2em 2em;
+    margin:2em 1em;
     line-height: 25px;
     
+}
+/*---about page*/
+#about_page
+{
+    display:flex;
+    justify-content: space-around;
+}
+.aboutPage_section
+{
+    max-width:70%;
+    float:left;
+    background-color: #f8f8f8;
+}
+.aboutPage_aside
+{
+    max-width:40%;
+    float:right;
+    margin-top:2em;
+    background-color: #f8f8f8;
+}
+.aboutPage_aside a
+{
+    color:darkgrey;
+    padding:1em;
+    margin-bottom:2em;
+    font-size: small;
+    
+}
+.aboutPage_aside a:hover
+{
+    color:white;
 }
 /*button*/
 button
 {
-    background-color: #FFF056;
+    background-color: #6cc644;
     padding:1em;
     margin: 0em auto;
-    color:hsla(0,0%,0%,0.8);
+    color:white;
     font-size: large;
     font-weight: bolder;
     letter-spacing: .7px;
@@ -215,7 +237,7 @@ button
     margin-top:2em;
     color: ghostwhite;
 }
-.learnMore:hover
+button:hover
 {
     background-color: #55ae2e;
     
