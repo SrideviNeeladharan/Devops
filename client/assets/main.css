@@ -88,7 +88,7 @@ article{
 }
 .mainSection
 {
-   max-width: 85%;
+    max-width: 85%;
     margin: 0 auto;
     background-color: white;
     margin-top: -50px;
@@ -97,6 +97,7 @@ article{
     padding:2em; 
     font-size:medium;
     font-weight: 400;
+    border-radius:5px;
 }
 #oppurtunities
 {
@@ -111,6 +112,7 @@ article{
     width:31%;
     border: 2px solid lightgray;
     padding: .5em;
+    border-radius: 5px;
 }
 
 .pic
