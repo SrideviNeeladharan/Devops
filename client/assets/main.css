@@ -18,7 +18,7 @@ body
 }
 #heading{
     background-color:black;
-    height:170px; 
+    height:110px; 
 }
 header
 {
@@ -26,7 +26,7 @@ header
     justify-content:center;
     max-width: 100%;
     margin:0em auto;
-    padding: 1em;
+    padding-top: 1em;
     color:white;
 }
 h1
@@ -60,7 +60,7 @@ a
     text-decoration: none;
     font-size: 16px;
     font-family: "Roboto",Arial,Helvetica,sans-serif;
-    padding:1em;
+    padding:.75em;
     border-radius:5px;
     color:#DFE2DB;
     letter-spacing: .7px;
@@ -99,7 +99,7 @@ article{
     font-weight: 400;
     border-radius:5px;
 }
-#oppurtunities
+.partial #oppurtunities
 {
   
     min-height:350px;
@@ -110,12 +110,12 @@ article{
 .col3
 {
     width:31%;
-    border: 2px solid lightgray;
+    border: .5px solid lightgray;
     padding: .5em;
     border-radius: 5px;
 }
 
-.pic
+.partial .pic
 {
     width:100%;
     height:30%;
@@ -123,11 +123,18 @@ article{
 
 .partial
 {
-    width:90%;
+    width:100%;
     min-height:750px;
     margin:0 auto;
 }
-h2,h3,h4
+h2
+{
+    text-align: center;
+    max-width: 100%;
+    padding:1em;
+    font-size: 2.5em;
+}
+h3,h4
 {
     text-align: center;
     max-width: 100%;
@@ -153,12 +160,19 @@ h2,h3,h4
     font-size: 2em;
     font-weight: bolder;
 }
+.partial .jumboImg
+{
+    width:100%;
+     max-height: 800px;
+}
+
 .partial img
 {
     width:75%;
     height:450px;
     display: block;
-    margin:2em auto;  
+    margin:1em auto;
+   
 }
 .partial .employees
 {
@@ -169,12 +183,14 @@ h2,h3,h4
 }
 aside
 {
-    max-width:30%;
+    max-width:60%;
     display: inline-block;
     float:right;  
     margin:1em;
 
 }
+
+
 i
 {
     color:#FFF056;
@@ -182,11 +198,16 @@ i
 section
 {
     padding: 2em;
-    margin:2em 1em;
+    margin:2em .25em;
     line-height: 25px;
     
 }
 /*---about page*/
+.partial .aboutImg
+{
+    width:100%;
+    margin-bottom: 1em;
+}
 #about_page
 {
     display:flex;
@@ -216,6 +237,43 @@ section
 .aboutPage_aside a:hover
 {
     color:white;
+}
+/*contact*/
+#contactPage
+{
+    display: flex;
+    max-width: 100%;
+}
+.partial .contactImg
+{
+    width:55%;
+    float:right;
+    margin:1.5em;
+    
+}
+h5
+{
+    padding:1em;
+}
+form
+{
+    margin:1em;
+    padding:1em;
+    display: inline-block;
+    width:50%;
+    float: left;
+}
+input
+{
+    padding: 1em 2em;
+    display: block;
+    width:80%;
+}
+.submit
+{
+    width:20%;
+    margin:1em;
+    padding:1em;
 }
 /*button*/
 button

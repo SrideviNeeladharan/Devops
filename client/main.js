@@ -29,6 +29,9 @@ angular.module('myApp')
                    controllerAs:'JC'
         
     })
+    .otherwise({
+        redirectTo: '/home'
+    })
     
 });
 myApp.controller('HomeController', function($scope){
